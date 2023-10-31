@@ -2,6 +2,10 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/nav'
+//전역에서 폰트어썸을 사용할 수 있게 설정
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +24,7 @@ export default function RootLayout({
   
       <body className={inter.className}>
         <Nav/>
+        <p>글로벌 레이아웃 </p>
         {children}</body>
     </html>
   )
