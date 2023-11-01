@@ -1,6 +1,6 @@
 'use client'
-import Link from "next/link"
 import { useEffect, useState } from "react";
+import Link from "next/link"
 import Logo from '/public/images/120x50.png';
 import Image from "next/image";
 import { GET } from "@/app/api/nav/route";
@@ -29,7 +29,7 @@ export default function Nav() {
             try {
                 const res = await fetch("/api/nav");
                 const data = await res.json();
-                console.log(data)
+                // console.log(data)
                 setMenuList(data.data);
             } catch (error) {
                 console.log(error);
@@ -72,7 +72,7 @@ export default function Nav() {
                     </div>
                 </div>
             </div>
-            {menuActive ? "클릭" : "햄버거"}
+            {/* {menuActive ? "클릭" : "햄버거"} */}
             <div className="fixed right-5 top-5 transition-all duration-500 z-[51] cursor-pointer md:hidden" onClick={toggleMenu}>
                 <div className={`w-[30px] h-[5px] bg-black dark:bg-[#ebf4f1] rounded m-[5px] transition-all duration-500 ${menuActive && "rotate-45 translate-y-[10px]"}`}></div>
                 <div className={`w-[30px] h-[5px] bg-black dark:bg-[#ebf4f1] rounded m-[5px] transition-all duration-500 ${menuActive && "opacity-0 -translate-x-8" }`}></div>
