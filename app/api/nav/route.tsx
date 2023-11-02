@@ -1,7 +1,4 @@
 import { NextResponse } from "next/server";
-import { faUser, faCode, faWindowMaximize } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 
 interface NavItem{
     name: string,

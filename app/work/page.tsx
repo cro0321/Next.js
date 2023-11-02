@@ -1,7 +1,16 @@
+import WorkComponets from "@/components/work"
+
+
 export default function Work() {
+    
     return (
         <>
-        <p>워크</p>
+            <div className="w-full pt-12 mt-16 px-[2%] pb-8 ">
+                <div className="max-w-7xl mx-auto p-5 bg-white rounded-md border dark:bg-[#272929] dark:text-[#ebf4f1]">
+                    <h3 className="text-center font-bold sm:text-2xl lg:text-3xl">포트폴리오</h3>
+                </div>
+                <WorkComponets/>
+            </div>
         </>
     )
     
