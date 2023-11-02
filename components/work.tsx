@@ -33,10 +33,10 @@ export default function Work() {
         
         const fetchData = async () => {
             try {
-                const res = await fetch("/api/work");
+                const res = await fetch("/api/portfolio?type=work");
                 const data = await res.json();
                 // console.log(data)
-                setWorkList(data.data)
+                setWorkList(data.dataWork)
                 // filterType()
             } catch (error) {
                 console.log(error);

@@ -27,10 +27,10 @@ export default function Nav() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch("/api/nav");
+                const res = await fetch("/api/portfolio?type=nav");
                 const data = await res.json();
                 // console.log(data)
-                setMenuList(data.data);
+                setMenuList(data.dataNav);
             } catch (error) {
                 console.log(error);
             }

@@ -17,7 +17,7 @@ export default function About() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch("/api/about");
+                const res = await fetch("/api/portfolio?type=about");
                 // json으로 받음
                 const data = await res.json();
                 setItemList(data.data);

@@ -20,10 +20,10 @@ export default function Skills() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch("/api/skill");
+                const res = await fetch("/api/portfolio?type=skill");
                 const data = await res.json();
                 // console.log(data)
-                setSkillList(data.data);
+                setSkillList(data.dataSkill);
                 setTimeout(() => {
                     setProgress(true)
                 }, 500); 
