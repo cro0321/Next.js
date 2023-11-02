@@ -80,7 +80,7 @@ export default function Nav() {
             </div>
 
             {/* 현재 기본값이 right-0 이고 어떤 액션을 줬을때 -right-72를 해주면 이게 숨겨 지는데 기본값이 -right-72라면 숨겨져있는 상태에서 먼저 선행되는 코드에 의해 숨어져있는 상태에서 right-0을 주게 되면 나타나지지 않음 */}
-            <div className={`w-72 h-full fixed right-0 bg-gray-100 top-0 z-50 p-12 box-border transition-all duration-500 md:hidden ${!menuActive  && "-right-72"} `}>
+            <div className={`w-72 h-full fixed -right-72 bg-gray-100 top-0 z-50 p-12 box-border transition-all duration-500 md:hidden ${menuActive  && "right-0"} `}>
                 <div className="text-center mt-6"><Image src="https://via.placeholder.com/100" alt="100x100" title="100x100" width={100} height={100} className="mx-auto rounded-full mb-4" />
                     <ul className="mt-12">
                         {
