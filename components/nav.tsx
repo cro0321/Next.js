@@ -44,9 +44,7 @@ export default function Nav() {
     }
 
     return (
-        <>
-            {/* {test} */}
-    
+        <>    
             <div className="w-full dark:border-b px-[2%] sticky top-0 bg-white py-2.5 z-[49]">
                 <div className="max-w-7xl mx-auto flex justify-between items-center">
 

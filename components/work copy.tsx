@@ -26,7 +26,7 @@ export default function Work() {
 
 
     const menuArray = ["전체", "클론", "팀프로젝트", "웹앱"];
-    const menuType = ["전체", "Clone" , "project", "webapp"];
+    const menuType = ["전체", "Clone" , "Project", "Webapp"];
   
     useEffect(() => {
        

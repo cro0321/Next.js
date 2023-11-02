@@ -50,7 +50,7 @@ export async function GET(): Promise<NextResponse> {
             tools: ["Figma" , "VS CODE", "GIT"],
             date: "5일",
             contribution: "100%",
-            type: "project",
+            type: "Project",
             original : "https://www.subway.co.kr",
             create: "https://www.naver.com",
             git: "https://www.github.com"
@@ -65,7 +65,7 @@ export async function GET(): Promise<NextResponse> {
             tools: ["Figma" , "VS CODE", "GIT"],
             date: "5일",
             contribution: "100%",
-            type: "webapp",
+            type: "Webapp",
             original : "https://www.subway.co.kr",
             create: "https://www.naver.com",
             git: "https://www.github.com"
@@ -95,7 +95,7 @@ export async function GET(): Promise<NextResponse> {
             tools: ["Figma" , "VS CODE", "GIT"],
             date: "5일",
             contribution: "100%",
-            type: "project",
+            type: "Project",
             original : "https://www.subway.co.kr",
             create: "https://www.naver.com",
             git: "https://www.github.com"
@@ -110,7 +110,7 @@ export async function GET(): Promise<NextResponse> {
             tools: ["Figma" , "VS CODE", "GIT"],
             date: "5일",
             contribution: "100%",
-            type: "webapp",
+            type: "Webapp",
             original : "https://www.subway.co.kr",
             create: "https://www.naver.com",
             git: "https://www.github.com"
@@ -140,7 +140,7 @@ export async function GET(): Promise<NextResponse> {
             tools: ["Figma" , "VS CODE", "GIT"],
             date: "5일",
             contribution: "100%",
-            type: "project",
+            type: "Project",
             original : "https://www.subway.co.kr",
             create: "https://www.naver.com",
             git: "https://www.github.com"
@@ -155,7 +155,7 @@ export async function GET(): Promise<NextResponse> {
             tools: ["Figma" , "VS CODE", "GIT"],
             date: "5일",
             contribution: "100%",
-            type: "webapp",
+            type: "Webapp",
             original : "https://www.subway.co.kr",
             create: "https://www.naver.com",
             git: "https://www.github.com"
@@ -185,7 +185,7 @@ export async function GET(): Promise<NextResponse> {
             tools: ["Figma" , "VS CODE", "GIT"],
             date: "5일",
             contribution: "100%",
-            type: "project",
+            type: "Project",
             original : "https://www.subway.co.kr",
             create: "https://www.naver.com",
             git: "https://www.github.com"
@@ -200,7 +200,7 @@ export async function GET(): Promise<NextResponse> {
             tools: ["Figma" , "VS CODE", "GIT"],
             date: "5일",
             contribution: "100%",
-            type: "webapp",
+            type: "Webapp",
             original : "https://www.subway.co.kr",
             create: "https://www.naver.com",
             git: "https://www.github.com"
